@@ -10,7 +10,7 @@ The project has 3 main files:
 2. The ```NestingTableViewController``` class
 3. The JSON data file.
 
-The ```NestingTableViewController``` class calls itself and pushes a new instance of itself on the navigation stack and passes down the correct instance needed for the nesting of data.
+When a table row that has nested data is tapped, ```NestingTableViewController``` creates a new instance of itself (while correctly passing down the nested data) and pushes that new instance onto the navigation stack.
 
 
 ## OK, Sounds interesting... how do I get started?
@@ -41,6 +41,6 @@ I'd love [feedback](mailto:mjar81@gmail.com) on if you find this useful. If you 
 
 #### Credits
 
-Inspiration to do this came from @diemer's [JSONTableView](https://github.com/diemer/JSONTableView) project. I simply wanted more control over how the data was presented and needed nesting. Check out his project for an example of loading the data from a server.
+Inspiration to do this came from [@diemer](https://github.com/diemer)'s [JSONTableView](https://github.com/diemer/JSONTableView) project. I simply wanted more control over how the data was presented and needed nesting. Check out his project for an example of loading the data from a server.
 
 Thanks to Laurent Sansonetti for creating RubyMotion!
