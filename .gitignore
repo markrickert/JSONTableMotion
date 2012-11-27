@@ -1,0 +1,10 @@
+.DS_Store
+.dat*.*
+.repl_history
+build
+resources/*.nib
+resources/*.momd
+resources/*.storyboardc
+vendor
+*.lock
+Archive
